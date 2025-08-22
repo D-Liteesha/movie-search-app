@@ -1,0 +1,94 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #888;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  background: #ff6600;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #e65c00;
+}
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.movie-card {
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  width: 180px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.movie-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.movie-card button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background: #0077cc;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.movie-card button:hover {
+  background: #005fa3;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.favorites {
+  margin-top: 40px;
+}
